@@ -1,5 +1,5 @@
 import React from 'react'
-// intro image
+import profileintroimg from "../imgFolder/profileintroimg.png";
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
 
 export default function Intro() {
@@ -11,7 +11,7 @@ export default function Intro() {
                     Hi, <br />I'm <span className='text-accent'>Cathe</span>rine<br />
                     Front End Developer 
                 </h1>
-                <p className='py-5'>
+                <p className='para-head'>
                     I'm proficient in Javascript, React.js, Node.js and CSS
                 </p>
                 <div className='flex py-5'>
@@ -32,18 +32,17 @@ export default function Intro() {
                 </div>
               
                 <a 
-                 href="/#projects"
-                 className='btn bg-accent border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent'
-                >
-                 Projects
+                 href="/#projects">
+                < button type="button" class="bg-violet-500 hover:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 active:bg-violet-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white">Projects</button>
+
                 </a>
               </div>
 
               <div className='hero-img'>
                 <img
-                 // src={image}
+                  src={profileintroimg}
                   alt="desk_and_techskills"
-                  className='lgw-[80] ml-auto'
+                  className='lgw-[70] ml-auto'
                 />
 
               </div>

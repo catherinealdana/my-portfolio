@@ -3,6 +3,7 @@
 @import "tailwindcss/utilities";
 
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,12 +16,16 @@ body {
     width: 100%;
 }
 
-/* color */
-.bg-primary {
-    background: #350756;
+.your-element {
+    background-image: url('../src/imgFolder/background.jpg'); 
 }
 
-.bg-secondery {
+/* color */
+.bg-primary {
+    background: #2b2330;
+}
+
+.bg-secondary {
     background: #432f74;
 }
 
@@ -46,8 +51,29 @@ nav li a:hover {
 }
 
 
-/* hero */
-h1 {
-    font-family: 'Pacifico', cursive;
-    line-height: 1.5 !important;
+/* Header */
+
+a {
+    font-family:'Poppins', semi-bold;
 }
+
+/* intro */
+h1 {
+    font-family: 'Leckerli One', cursive;
+    line-height: 1 !important;
+}
+
+p {
+    font-family: 'Poppins', cursive;
+    line-height: 4
+    ;
+}
+
+button {
+    font-family: 'Helvetica', cursive;
+
+}
+
+
+
+
