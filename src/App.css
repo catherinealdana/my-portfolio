@@ -9,32 +9,30 @@ html {
 }
 
 body {
-    @apply text-lg
+    @apply text-lg;
+    background-image: url('../src/imgFolder/background.jpg');
+    
 }
 
 .projects img {
     width: 100%;
 }
 
-.your-element {
+.bg-primary {
     background-image: url('../src/imgFolder/background.jpg'); 
 }
 
-/* color */
-.bg-primary {
-    background: #2b2330;
-}
 
 .bg-secondary {
-    background: #432f74;
+    background: url('../src/imgFolder/background.jpg');
 }
 
 .bg-accent {
-    background: #fa9c6a;
+    background: #ee7943;
 }
 
 .text-accent {
-    color: hsl(338, 66%, 47%);
+    color: hsl(22, 78%, 58%);
 }
 
 
@@ -65,13 +63,11 @@ h1 {
 
 p {
     font-family: 'Poppins', cursive;
-    line-height: 4
-    ;
+    line-height: 2;
 }
 
 button {
     font-family: 'Helvetica', cursive;
-
 }
 
 

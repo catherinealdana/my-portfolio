@@ -9,10 +9,10 @@ export default function Intro() {
             <div className='intro-info pb-5 md:pb-0'>
                 <h1 className='test-4xl lg:text-6xl'>
                     Hi, <br />I'm <span className='text-accent'>Cathe</span>rine<br />
-                    Front End Developer 
+                    Full Stack Developer • UX 
                 </h1>
                 <p className='para-head'>
-                    I'm proficient in Javascript, React.js, Node.js and CSS
+                   Javascript, React.js, Node.js and CSS and always open for more new data in my brain 🧠
                 </p>
                 <div className='flex py-5'>
                    <a
@@ -43,6 +43,7 @@ export default function Intro() {
                   src={profileintroimg}
                   alt="desk_and_techskills"
                   className='lgw-[70] ml-auto'
+                  style={{ opacity: 0.9 }} 
                 />
 
               </div>

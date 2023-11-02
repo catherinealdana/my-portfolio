@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-export default function Footer() {
-  return (
-    <div>Footer</div>
-  )
+const Footer = () => {
+  return <div className="py-4 text-center bg-primary text-white "> &copy; 2023 catherinealdana all right reserved • Thanks, be in touch soon 🦄 !</div>;
 };
+
+export default Footer;
