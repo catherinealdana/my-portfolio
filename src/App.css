@@ -14,6 +14,25 @@ body {
     
 }
 
+@font-face {
+    font-family: 'fontA';
+    src: url('https://fonts.google.com/specimen/Poppins?query=poppins') format('ttf'); 
+  }
+
+
+@font-face {
+    font-family: 'fontB';
+    src: url('https://fonts.google.com/?query=Leckerli+One') format('ttf'); 
+  }
+
+
+  @font-face {
+    font-family: 'fontB';
+    src: url('https://fonts.google.com/?query=Leckerli+One') format('ttf'); 
+  }
+  
+
+
 .projects img {
     width: 100%;
 }
@@ -52,17 +71,17 @@ nav li a:hover {
 /* Header */
 
 a {
-    font-family:'Poppins', semi-bold;
+    font-family:'fontA', semi-bold;
 }
 
 /* intro */
 h1 {
-    font-family: 'Leckerli One', cursive;
+    font-family: 'fontB', cursive;
     line-height: 1 !important;
 }
 
 p {
-    font-family: 'Poppins', cursive;
+    font-family: 'fontA', cursive;
     line-height: 2;
 }
 
