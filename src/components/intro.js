@@ -7,7 +7,7 @@ export default function Intro() {
     <section className='bg-primary px-5 text-white py-32'>
         <div className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between'>
             <div className='intro-info pb-5 md:pb-0'>
-                <h1 className='test-4xl lg:text-6xl'>
+            <h1 className='test-4xl lg:text-6xl'>
                     Hi, <br />I'm <span className='text-accent'>Cathe</span>rine<br />
                     Full Stack Developer • UX 
                 </h1>

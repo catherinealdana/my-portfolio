@@ -1,57 +1,34 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    @apply text-lg;
-    background-image: url('../src/imgFolder/background.jpg');
-    
+    @apply text-lg
 }
-
-@font-face {
-    font-family: 'fontA';
-    src: url('https://fonts.google.com/specimen/Poppins?query=poppins') format('ttf'); 
-  }
-
-
-@font-face {
-    font-family: 'fontB';
-    src: url('https://fonts.google.com/?query=Leckerli+One') format('ttf'); 
-  }
-
-
-  @font-face {
-    font-family: 'fontB';
-    src: url('https://fonts.google.com/?query=Leckerli+One') format('ttf'); 
-  }
-  
-
 
 .projects img {
     width: 100%;
 }
 
+/* color */
 .bg-primary {
-    background-image: url('../src/imgFolder/background.jpg'); 
+    background: #0F172A;
 }
 
-
-.bg-secondary {
-    background: url('../src/imgFolder/background.jpg');
+.bg-secondery {
+    background: #1E293B;
 }
 
 .bg-accent {
-    background: #ee7943;
+    background: #7477FF;
 }
 
 .text-accent {
-    color: hsl(22, 78%, 58%);
+    color: #7477FF;
 }
 
 
@@ -68,27 +45,8 @@ nav li a:hover {
 }
 
 
-/* Header */
-
-a {
-    font-family:'fontA', semi-bold;
-}
-
-/* intro */
+/* hero */
 h1 {
-    font-family: 'fontB', cursive;
-    line-height: 1 !important;
+    font-family: 'Pacifico', cursive;
+    line-height: 1.5 !important;
 }
-
-p {
-    font-family: 'fontA', cursive;
-    line-height: 2;
-}
-
-button {
-    font-family: 'Helvetica', cursive;
-}
-
-
-
-
