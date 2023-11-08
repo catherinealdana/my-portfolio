@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -45,14 +47,10 @@ nav li a:hover {
 }
 
 
-/* hero */
-h1 {
-    font-family: 'Pacifico', cursive;
-    line-height: 1.5 !important;
+/* intro */
+
+.introfont {
+    font-family: 'Lobster';
+    src: url('https://fonts.googleapis.com/css2?family=Lobster&display=swap') format('truetype');
 }
 
-@font-face {
-    font-family: 'Pacifico';
-    src: url('https://fonts.google.com/specimen/Pacifico?query=pacifico') format('truetype');
-    /* Add additional font formats if needed, e.g., woff, ttf, eot */
-  }

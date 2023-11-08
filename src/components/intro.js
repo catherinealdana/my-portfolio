@@ -1,17 +1,33 @@
 import React from 'react'
-import profileintroimg from "../imgFolder/profileintroimg.png";
+import umbertobg from "../imgFolder/umbertobg.jpg";
+import profileintroimg from "../imgFolder/profileintroimg.png"
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
+import '../App.css';
+
+
+
+
 
 export default function Intro() {
+  const sectionStyle = {
+    backgroundImage: `url(${umbertobg})`,
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    opacity: 1.6
+    
+  };
   return (
-    <section className='bg-primary px-5 text-white py-32'>
+    <section className='bg-primary custom-bg bg-opacity-50 px-5 text-white py-32'
+         style= { sectionStyle} >
         <div className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between'>
+           
             <div className='intro-info pb-5 md:pb-0'>
-            <h1 className='test-4xl lg:text-6xl Pacifico'>
-                    Hi, <br />I'm <span className='text-accent'>Cathe</span>rine<br />
-                    Full Stack Developer • UX 
-                </h1>
-                <p className='para-head'>
+            <h1 className='text-4xl lg:text-7xl introfont'>
+                  Hi, <br />I'm <span className='text-accent'>Cathe</span>rine<br />
+            </h1>
+            <h5 className='text-4xl lg:text-4xl' > Dev • UX</h5>
+
+                <p className='py-5 lg:text-3xl'>
                    Javascript, React.js, Node.js and CSS and always open for more new data in my brain 🧠
                 </p>
                 <div className='flex py-5'>
@@ -38,12 +54,12 @@ export default function Intro() {
                 </a>
               </div>
 
-              <div className='hero-img'>
+              <div className='intro-img'>
                 <img
                   src={profileintroimg}
                   alt="desk_and_techskills"
                   className='lgw-[70] ml-auto'
-                  style={{ opacity: 0.9 }} 
+                  style={{ opacity: 0.6 }} 
                 />
 
               </div>
