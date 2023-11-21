@@ -1,5 +1,5 @@
 import React from 'react'
-import umbertobg from "../imgFolder/umbertobg.jpg";
+import catabackground from "../imgFolder/catabackground.jpg";
 import profileintroimg from "../imgFolder/profileintroimg.png"
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
 import '../App.css';
@@ -10,7 +10,7 @@ import '../App.css';
 
 export default function Intro() {
   const sectionStyle = {
-    backgroundImage: `url(${umbertobg})`,
+    backgroundImage: `url(${catabackground})`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     opacity: 1.6
