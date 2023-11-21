@@ -29,7 +29,7 @@ export default function Header() {
            <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1xfXOfOaQJz8BkxhBDTx040HOiOpMqAeo/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1Bl6MySwjo2SZho4Wl8Ggi_zfs6zPuTHs/view?usp=sharing" 
                target="_blank" 
                without rel="noreferrer"
             >
